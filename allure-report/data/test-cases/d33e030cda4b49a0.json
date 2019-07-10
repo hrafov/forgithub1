@@ -1,0 +1,332 @@
+{
+  "uid" : "d33e030cda4b49a0",
+  "name" : "LogInTest Scenario with blank username and blank password",
+  "fullName" : "com.epam.lab.LogInTest.logInTestWithBlankLoginAndPassword",
+  "historyId" : "639fc3e8789df56c5138e22572931feb",
+  "time" : {
+    "start" : 1551727096765,
+    "stop" : 1551727106604,
+    "duration" : 9839
+  },
+  "description" : "LogInTest Description: blank login and password",
+  "descriptionHtml" : "<p>LogInTest Description: blank login and password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1551727086513,
+      "stop" : 1551727095787,
+      "duration" : 9274
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "LogInTest Description: blank login and password",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "LoginPageBO with login: {0}, password: {1} for method: {logIn} step...",
+      "time" : {
+        "start" : 1551727096774,
+        "stop" : 1551727100392,
+        "duration" : 3618
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElementBO Step: Submit login form in login page in method: {clickSubmit}...",
+        "time" : {
+          "start" : 1551727096905,
+          "stop" : 1551727097690,
+          "duration" : 785
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Click on page element...",
+          "time" : {
+            "start" : 1551727096905,
+            "stop" : 1551727097689,
+            "duration" : 784
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Enter login: {0} in login input field in method: {enterLogin}...",
+        "time" : {
+          "start" : 1551727097690,
+          "stop" : 1551727098917,
+          "duration" : 1227
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Clear input field...",
+          "time" : {
+            "start" : 1551727097693,
+            "stop" : 1551727098310,
+            "duration" : 617
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Send keys: {0}...",
+          "time" : {
+            "start" : 1551727098311,
+            "stop" : 1551727098917,
+            "duration" : 606
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "keysToSend",
+            "value" : "[]"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : ""
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Enter password: {0} in password input field in method: {enterPassword}...",
+        "time" : {
+          "start" : 1551727098918,
+          "stop" : 1551727099808,
+          "duration" : 890
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Clear input field...",
+          "time" : {
+            "start" : 1551727098918,
+            "stop" : 1551727099292,
+            "duration" : 374
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Send keys: {0}...",
+          "time" : {
+            "start" : 1551727099292,
+            "stop" : 1551727099808,
+            "duration" : 516
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "keysToSend",
+            "value" : "[]"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : ""
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Submit login form in login page in method: {clickSubmit}...",
+        "time" : {
+          "start" : 1551727099808,
+          "stop" : 1551727100392,
+          "duration" : 584
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Click on page element...",
+          "time" : {
+            "start" : 1551727099809,
+            "stop" : 1551727100392,
+            "duration" : 583
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : ""
+      }, {
+        "name" : "password",
+        "value" : ""
+      } ],
+      "stepsCount" : 10,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "PageElementBO Step: Submit login form in login page in method: {clickSubmit}...",
+      "time" : {
+        "start" : 1551727100392,
+        "stop" : 1551727100949,
+        "duration" : 557
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1551727100395,
+          "stop" : 1551727100949,
+          "duration" : 554
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "TestListener Step: method: {onTestSuccess}...",
+      "time" : {
+        "start" : 1551727106572,
+        "stop" : 1551727106574,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "iTestResult",
+        "value" : "[TestResult name=logInTestWithBlankLoginAndPassword status=SUCCESS method=LogInTest.logInTestWithBlankLoginAndPassword()[pri:1, instance:com.epam.lab.LogInTest@291aad] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quit",
+    "time" : {
+      "start" : 1551727118600,
+      "stop" : 1551727119937,
+      "duration" : 1337
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.lab.LogInTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.lab.LogInTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "logInTestWithBlankLoginAndPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.lab.LogInTest"
+  }, {
+    "name" : "host",
+    "value" : "User-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "6100@User-ПК.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d33e030cda4b49a0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,293 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "User-ПК",
+    "children" : [ {
+      "name" : "5196@User-ПК.main(1)",
+      "children" : [ {
+        "name" : "Verify link password.epam.com",
+        "uid" : "ab2c5303c1723230",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1551100936202,
+          "stop" : 1551100936214,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify the functionality of Professional Training card....",
+        "uid" : "1316ea2b6a0b08fd",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "broken",
+        "time" : {
+          "start" : 1551101202229,
+          "stop" : 1551101213339,
+          "duration" : 11110
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify if PAST PROJECTS button shows past projects",
+        "uid" : "1c4a7d12fef12c05",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551101026657,
+          "stop" : 1551101029042,
+          "duration" : 2385
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify if Wall button shows a wall",
+        "uid" : "7b7f36f40a1436ce",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551101075245,
+          "stop" : 1551101077702,
+          "duration" : 2457
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify link Self Service",
+        "uid" : "8e273f92a8123f8",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1551100937625,
+          "stop" : 1551100937627,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify the functionality of Personal card with invalid data....",
+        "uid" : "e2ecef2e25938e7f",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "broken",
+        "time" : {
+          "start" : 1551101105231,
+          "stop" : 1551101128718,
+          "duration" : 23487
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify if data on profile page comply with person data",
+        "uid" : "ccd873d3071f9549",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551101032563,
+          "stop" : 1551101036023,
+          "duration" : 3460
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify link for support email",
+        "uid" : "9484c10481763bb4",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1551100937584,
+          "stop" : 1551100937585,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify the functionality of Personal card with valid data....",
+        "uid" : "a18647f93e330902",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "broken",
+        "time" : {
+          "start" : 1551101148909,
+          "stop" : 1551101170643,
+          "duration" : 21734
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify link Privacy Policy",
+        "uid" : "68d71abbe5a906b9",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1551100937490,
+          "stop" : 1551100937493,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify if Cover image is displayed",
+        "uid" : "4db1027ae7ebf23c",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551100975103,
+          "stop" : 1551100999410,
+          "duration" : 24307
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify if button UPSA is active",
+        "uid" : "865bc1759161b514",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551101037431,
+          "stop" : 1551101075091,
+          "duration" : 37660
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify if Profile button shows a profile page",
+        "uid" : "51048f1f66743abd",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "broken",
+        "time" : {
+          "start" : 1551101036196,
+          "stop" : 1551101037411,
+          "duration" : 1215
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify if data on profile page comply with contacts",
+        "uid" : "e1178461e5145b1d",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "broken",
+        "time" : {
+          "start" : 1551101029080,
+          "stop" : 1551101032425,
+          "duration" : 3345
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify if Feedback button shows feedback window",
+        "uid" : "10d2681816eeb8f4",
+        "parentUid" : "0f320552fc378601f1f19e7b73a62530",
+        "status" : "broken",
+        "time" : {
+          "start" : 1551100999534,
+          "stop" : 1551101026532,
+          "duration" : 26998
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f320552fc378601f1f19e7b73a62530"
+    }, {
+      "name" : "948@User-ПК.main(1)",
+      "children" : [ {
+        "name" : "Main WorkFlow test",
+        "uid" : "8e665f04097de02a",
+        "parentUid" : "100d12cc67d0cb901664e9f295f624ef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562522508810,
+          "stop" : 1562522578208,
+          "duration" : 69398
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "LogInTest Scenario with invalid username and valid password",
+        "uid" : "75fe9e285792f93f",
+        "parentUid" : "100d12cc67d0cb901664e9f295f624ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562522418974,
+          "stop" : 1562522434774,
+          "duration" : 15800
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "LogInTest Scenario with blank username and blank password",
+        "uid" : "42c47809a93f34fc",
+        "parentUid" : "100d12cc67d0cb901664e9f295f624ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562522395024,
+          "stop" : 1562522406350,
+          "duration" : 11326
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "LogInTest Scenario with valid username and invalid password",
+        "uid" : "e61b4b743579e471",
+        "parentUid" : "100d12cc67d0cb901664e9f295f624ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562522434898,
+          "stop" : 1562522447449,
+          "duration" : 12551
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Robot4DragAndDropElements test",
+        "uid" : "d96e0492a9b27aec",
+        "parentUid" : "100d12cc67d0cb901664e9f295f624ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562522671536,
+          "stop" : 1562522797508,
+          "duration" : 125972
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "LogInTest Scenario with invalid username and invalid password",
+        "uid" : "35cb337b8a7462c3",
+        "parentUid" : "100d12cc67d0cb901664e9f295f624ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562522408538,
+          "stop" : 1562522418905,
+          "duration" : 10367
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "LogInTest Scenario with valid username and valid password",
+        "uid" : "d4f0aa3daa29ba11",
+        "parentUid" : "100d12cc67d0cb901664e9f295f624ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562522447567,
+          "stop" : 1562522464012,
+          "duration" : 16445
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create New VU Scenario with new username and new password",
+        "uid" : "3d98a813f5f05973",
+        "parentUid" : "100d12cc67d0cb901664e9f295f624ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562522602357,
+          "stop" : 1562522649370,
+          "duration" : 47013
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "100d12cc67d0cb901664e9f295f624ef"
+    } ],
+    "uid" : "a96c4adcf9d47077eb04a5078890775e"
+  } ]
+}

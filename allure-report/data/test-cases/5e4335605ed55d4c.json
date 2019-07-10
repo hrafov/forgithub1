@@ -1,0 +1,620 @@
+{
+  "uid" : "5e4335605ed55d4c",
+  "name" : "Create New VU Scenario with new username and new password",
+  "fullName" : "com.epam.lab.CreateNewVUTest.CreateNewVU",
+  "historyId" : "68e1b2e41392d03aa131b6980d3dc006",
+  "time" : {
+    "start" : 1554264389451,
+    "stop" : 1554264403422,
+    "duration" : 13971
+  },
+  "description" : "CreateNewVU Description: test with new username and new password",
+  "descriptionHtml" : "<p>CreateNewVU Description: test with new username and new password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1554264371281,
+      "stop" : 1554264388845,
+      "duration" : 17564
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "CreateNewVU Description: test with new username and new password",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "PageElementBO Step: Click JoinScratch button in login page in method: {clickJoinScratch}...",
+      "time" : {
+        "start" : 1554264389461,
+        "stop" : 1554264403412,
+        "duration" : 13951
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElementBO Step: Click on JoinScratch in login page in method: {clickJoinScratch}...",
+        "time" : {
+          "start" : 1554264389463,
+          "stop" : 1554264393568,
+          "duration" : 4105
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Click on page element...",
+          "time" : {
+            "start" : 1554264389464,
+            "stop" : 1554264393567,
+            "duration" : 4103
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Enter login: {0} in login input field in method: {enterNewLogin}...",
+        "time" : {
+          "start" : 1554264393717,
+          "stop" : 1554264395027,
+          "duration" : 1310
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Clear input field...",
+          "time" : {
+            "start" : 1554264393718,
+            "stop" : 1554264394340,
+            "duration" : 622
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Send keys: {0}...",
+          "time" : {
+            "start" : 1554264394340,
+            "stop" : 1554264395027,
+            "duration" : 687
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "keysToSend",
+            "value" : "[GrafGraf3]"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "GrafGraf3"
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Enter password: {0} in password input field in method: {enterNewPassword}...",
+        "time" : {
+          "start" : 1554264395028,
+          "stop" : 1554264396523,
+          "duration" : 1495
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Clear input field...",
+          "time" : {
+            "start" : 1554264395028,
+            "stop" : 1554264395622,
+            "duration" : 594
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Send keys: {0}...",
+          "time" : {
+            "start" : 1554264395622,
+            "stop" : 1554264396523,
+            "duration" : 901
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "keysToSend",
+            "value" : "[ParolParol3]"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "ParolParol3"
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Enter password: {0} in password input field in method: {confirmNewPassword}...",
+        "time" : {
+          "start" : 1554264396524,
+          "stop" : 1554264397863,
+          "duration" : 1339
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Clear input field...",
+          "time" : {
+            "start" : 1554264396524,
+            "stop" : 1554264396826,
+            "duration" : 302
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Send keys: {0}...",
+          "time" : {
+            "start" : 1554264396826,
+            "stop" : 1554264397863,
+            "duration" : 1037
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "keysToSend",
+            "value" : "[ParolParol3]"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "ParolParol3"
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Next in login page in method: {clickNext}...",
+        "time" : {
+          "start" : 1554264397863,
+          "stop" : 1554264399340,
+          "duration" : 1477
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Click on page element...",
+          "time" : {
+            "start" : 1554264397863,
+            "stop" : 1554264399340,
+            "duration" : 1477
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Click on JoinScratch in login page in method: {clickJoinScratch}...",
+        "time" : {
+          "start" : 1554264399340,
+          "stop" : 1554264400161,
+          "duration" : 821
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Get tag name...",
+          "time" : {
+            "start" : 1554264399347,
+            "stop" : 1554264399517,
+            "duration" : 170
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Get attribute by name: {0}...",
+          "time" : {
+            "start" : 1554264399518,
+            "stop" : 1554264399594,
+            "duration" : 76
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "name",
+            "value" : "multiple"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Find elements by: {0}...",
+          "time" : {
+            "start" : 1554264399595,
+            "stop" : 1554264399835,
+            "duration" : 240
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "by",
+            "value" : "By.tagName: option"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "i",
+          "value" : "1"
+        } ],
+        "stepsCount" : 3,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Click on JoinScratch in login page in method: {clickJoinScratch}...",
+        "time" : {
+          "start" : 1554264400163,
+          "stop" : 1554264400938,
+          "duration" : 775
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Get tag name...",
+          "time" : {
+            "start" : 1554264400163,
+            "stop" : 1554264400310,
+            "duration" : 147
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Get attribute by name: {0}...",
+          "time" : {
+            "start" : 1554264400310,
+            "stop" : 1554264400418,
+            "duration" : 108
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "name",
+            "value" : "multiple"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Find elements by: {0}...",
+          "time" : {
+            "start" : 1554264400419,
+            "stop" : 1554264400583,
+            "duration" : 164
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "by",
+            "value" : "By.tagName: option"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "i",
+          "value" : "1"
+        } ],
+        "stepsCount" : 3,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: RadioButtonMale page in method: {clickRadioButtonGenderMale}...",
+        "time" : {
+          "start" : 1554264400939,
+          "stop" : 1554264401539,
+          "duration" : 600
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Click on page element...",
+          "time" : {
+            "start" : 1554264400939,
+            "stop" : 1554264401539,
+            "duration" : 600
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Click on JoinScratch in login page in method: {clickJoinScratch}...",
+        "time" : {
+          "start" : 1554264401540,
+          "stop" : 1554264402967,
+          "duration" : 1427
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Get tag name...",
+          "time" : {
+            "start" : 1554264401540,
+            "stop" : 1554264401831,
+            "duration" : 291
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Get attribute by name: {0}...",
+          "time" : {
+            "start" : 1554264401832,
+            "stop" : 1554264401906,
+            "duration" : 74
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "name",
+            "value" : "multiple"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Find elements by: {0}...",
+          "time" : {
+            "start" : 1554264401908,
+            "stop" : 1554264402195,
+            "duration" : 287
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "by",
+            "value" : "By.tagName: option"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "i",
+          "value" : "1"
+        } ],
+        "stepsCount" : 3,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Next in login page in method: {clickNext}...",
+        "time" : {
+          "start" : 1554264402967,
+          "stop" : 1554264403412,
+          "duration" : 445
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Click on page element...",
+          "time" : {
+            "start" : 1554264402968,
+            "stop" : 1554264403412,
+            "duration" : 444
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "newLogin",
+        "value" : "GrafGraf3"
+      }, {
+        "name" : "newPassword",
+        "value" : "ParolParol3"
+      } ],
+      "stepsCount" : 29,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "TestListener Step: method: {onTestSuccess}...",
+      "time" : {
+        "start" : 1554264403413,
+        "stop" : 1554264403415,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "iTestResult",
+        "value" : "[TestResult name=CreateNewVU status=SUCCESS method=CreateNewVUTest.CreateNewVU()[pri:0, instance:com.epam.lab.CreateNewVUTest@16390f4] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 31,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quit",
+    "time" : {
+      "start" : 1554264405237,
+      "stop" : 1554264406471,
+      "duration" : 1234
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.lab.CreateNewVUTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.lab.CreateNewVUTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "CreateNewVU"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.lab.CreateNewVUTest"
+  }, {
+    "name" : "host",
+    "value" : "User-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "5212@User-ПК.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e4335605ed55d4c.json",
+  "parameterValues" : [ ]
+}

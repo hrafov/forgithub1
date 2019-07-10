@@ -1,0 +1,407 @@
+{
+  "uid" : "fc7524f4ba2b5d30",
+  "name" : "Main WorkFlow test",
+  "fullName" : "com.epam.lab.MainWorkFlowTest.mainWorkFlowTest",
+  "historyId" : "327e71524c0fbcc45c6843703512f13",
+  "time" : {
+    "start" : 1553608100867,
+    "stop" : 1553608131480,
+    "duration" : 30613
+  },
+  "description" : "MainWorkFlowTest Description: To test Main Workflow",
+  "descriptionHtml" : "<p>MainWorkFlowTest Description: To test Main Workflow</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1553608086450,
+      "stop" : 1553608099293,
+      "duration" : 12843
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "MainWorkFlowTest Description: To test Main Workflow",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "LoginPageBO with login: {0}, password: {1} for method: {logIn} step...",
+      "time" : {
+        "start" : 1553608100875,
+        "stop" : 1553608104813,
+        "duration" : 3938
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElementBO Step: Submit login form in login page in method: {clickSubmit}...",
+        "time" : {
+          "start" : 1553608100879,
+          "stop" : 1553608102711,
+          "duration" : 1832
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Click on page element...",
+          "time" : {
+            "start" : 1553608100880,
+            "stop" : 1553608102710,
+            "duration" : 1830
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Enter login: {0} in login input field in method: {enterLogin}...",
+        "time" : {
+          "start" : 1553608102712,
+          "stop" : 1553608103536,
+          "duration" : 824
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Clear input field...",
+          "time" : {
+            "start" : 1553608102712,
+            "stop" : 1553608102889,
+            "duration" : 177
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Send keys: {0}...",
+          "time" : {
+            "start" : 1553608102890,
+            "stop" : 1553608103536,
+            "duration" : 646
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "keysToSend",
+            "value" : "[GrafGraf]"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "GrafGraf"
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Enter password: {0} in password input field in method: {enterPassword}...",
+        "time" : {
+          "start" : 1553608103537,
+          "stop" : 1553608104421,
+          "duration" : 884
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Clear input field...",
+          "time" : {
+            "start" : 1553608103537,
+            "stop" : 1553608103708,
+            "duration" : 171
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Send keys: {0}...",
+          "time" : {
+            "start" : 1553608103708,
+            "stop" : 1553608104421,
+            "duration" : 713
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "keysToSend",
+            "value" : "[ParolParol]"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "ParolParol"
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Submit login form in login page in method: {clickSubmit}...",
+        "time" : {
+          "start" : 1553608104421,
+          "stop" : 1553608104813,
+          "duration" : 392
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Click on page element...",
+          "time" : {
+            "start" : 1553608104422,
+            "stop" : 1553608104813,
+            "duration" : 391
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "GrafGraf"
+      }, {
+        "name" : "password",
+        "value" : "ParolParol"
+      } ],
+      "stepsCount" : 10,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "PageElementBO Step: Get UserName From profile button...",
+      "time" : {
+        "start" : 1553608104814,
+        "stop" : 1553608106679,
+        "duration" : 1865
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1553608104814,
+          "stop" : 1553608106679,
+          "duration" : 1865
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "PageElementBO Step: myStuff...",
+      "time" : {
+        "start" : 1553608106689,
+        "stop" : 1553608115356,
+        "duration" : 8667
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1553608106689,
+          "stop" : 1553608109336,
+          "duration" : 2647
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1553608109336,
+          "stop" : 1553608115356,
+          "duration" : 6020
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "PageElementBO Step: project drums2...",
+      "time" : {
+        "start" : 1553608115480,
+        "stop" : 1553608131452,
+        "duration" : 15972
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1553608115482,
+          "stop" : 1553608131452,
+          "duration" : 15970
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "TestListener Step: method: {onTestSuccess}...",
+      "time" : {
+        "start" : 1553608131454,
+        "stop" : 1553608131454,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "iTestResult",
+        "value" : "[TestResult name=mainWorkFlowTest status=SUCCESS method=MainWorkFlowTest.mainWorkFlowTest()[pri:0, instance:com.epam.lab.MainWorkFlowTest@ff644] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quit",
+    "time" : {
+      "start" : 1553608133881,
+      "stop" : 1553608135607,
+      "duration" : 1726
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.lab.MainWorkFlowTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.lab.MainWorkFlowTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "mainWorkFlowTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.lab.MainWorkFlowTest"
+  }, {
+    "name" : "host",
+    "value" : "User-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "6648@User-ПК.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc7524f4ba2b5d30.json",
+  "parameterValues" : [ ]
+}

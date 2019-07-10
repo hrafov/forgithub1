@@ -1,0 +1,78 @@
+{
+  "uid" : "4ab0ec2aaa349d2a",
+  "name" : "Verify if button UPSA is active",
+  "fullName" : "com.epam.lab.ProfilePageTest.verifyUPSAButton",
+  "historyId" : "a012a40bcdaff4d49f87fd2facaaf3b",
+  "time" : {
+    "start" : 1550833025000,
+    "stop" : 1550833025000,
+    "duration" : 0
+  },
+  "description" : "ProfileTest Description: Verify if button UPSA is active",
+  "descriptionHtml" : "<p>ProfileTest Description: Verify if button UPSA is active</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Index: 0, Size: 0",
+  "statusTrace" : "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:657)\r\n\tat java.util.ArrayList.get(ArrayList.java:433)\r\n\tat com.epam.lab.core.util.CsvParser.createObjectsFromDataCsv(CsvParser.java:34)\r\n\tat com.epam.lab.ProfilePageTest.setup(ProfilePageTest.java:35)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)\r\n\tat org.testng.TestRunner.beforeRun(TestRunner.java:626)\r\n\tat org.testng.TestRunner.run(TestRunner.java:594)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\r\n\tat org.testng.TestNG.run(TestNG.java:1115)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1550833022150,
+      "stop" : 1550833023368,
+      "duration" : 1218
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "Index: 0, Size: 0",
+    "statusTrace" : "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:657)\r\n\tat java.util.ArrayList.get(ArrayList.java:433)\r\n\tat com.epam.lab.core.util.CsvParser.createObjectsFromDataCsv(CsvParser.java:34)\r\n\tat com.epam.lab.ProfilePageTest.setup(ProfilePageTest.java:35)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)\r\n\tat org.testng.TestRunner.beforeRun(TestRunner.java:626)\r\n\tat org.testng.TestRunner.run(TestRunner.java:594)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\r\n\tat org.testng.TestNG.run(TestNG.java:1115)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.lab.ProfilePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.lab.ProfilePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyUPSAButton"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.lab.ProfilePageTest"
+  }, {
+    "name" : "host",
+    "value" : "User-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "3988@User-ПК.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ab0ec2aaa349d2a.json",
+  "parameterValues" : [ ]
+}

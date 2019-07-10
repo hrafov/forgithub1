@@ -1,0 +1,90 @@
+{
+  "uid" : "f69570a0a7b0264c",
+  "name" : "Create New VU Scenario with new username and new password",
+  "fullName" : "com.epam.lab.CreateNewVUTest.CreateNewVU",
+  "historyId" : "68e1b2e41392d03aa131b6980d3dc006",
+  "time" : {
+    "start" : 1562520418569,
+    "stop" : 1562520450896,
+    "duration" : 32327
+  },
+  "description" : "CreateNewVU Description: test with new username and new password",
+  "descriptionHtml" : "<p>CreateNewVU Description: test with new username and new password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1562520400163,
+      "stop" : 1562520418176,
+      "duration" : 18013
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quit",
+    "time" : {
+      "start" : 1562520451859,
+      "stop" : 1562520453268,
+      "duration" : 1409
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.lab.CreateNewVUTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.lab.CreateNewVUTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "CreateNewVU"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.lab.CreateNewVUTest"
+  }, {
+    "name" : "host",
+    "value" : "User-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "932@User-ПК.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f69570a0a7b0264c.json",
+  "parameterValues" : [ ]
+}

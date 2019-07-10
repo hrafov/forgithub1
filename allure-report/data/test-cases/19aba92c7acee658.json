@@ -1,0 +1,90 @@
+{
+  "uid" : "19aba92c7acee658",
+  "name" : "LogInTest Scenario with valid username and valid password",
+  "fullName" : "com.epam.lab.LogInTest.logInTestWithValidLoginAndValidPassword",
+  "historyId" : "337af8402e0de6ee103c7d6ff264e498",
+  "time" : {
+    "start" : 1559815241111,
+    "stop" : 1559815282728,
+    "duration" : 41617
+  },
+  "description" : "LogInTest Description: Login test valid login and valid password",
+  "descriptionHtml" : "<p>LogInTest Description: Login test valid login and valid password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1559815096302,
+      "stop" : 1559815113906,
+      "duration" : 17604
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quit",
+    "time" : {
+      "start" : 1559815282759,
+      "stop" : 1559815293770,
+      "duration" : 11011
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.lab.LogInTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.lab.LogInTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "logInTestWithValidLoginAndValidPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.lab.LogInTest"
+  }, {
+    "name" : "host",
+    "value" : "User-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "3916@User-ПК.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19aba92c7acee658.json",
+  "parameterValues" : [ ]
+}

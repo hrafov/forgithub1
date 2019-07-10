@@ -1,0 +1,164 @@
+{
+  "uid" : "27276db8e4120b04",
+  "name" : "Verify link password.epam.com",
+  "fullName" : "com.epam.lab.LogInTest.verifyLinkPasswordEpamCom",
+  "historyId" : "7906709f5fab6b1ddf86733d98286981",
+  "time" : {
+    "start" : 1550869424858,
+    "stop" : 1550869432074,
+    "duration" : 7216
+  },
+  "description" : "LogInTest Description: Verify link password.epam.com",
+  "descriptionHtml" : "<p>LogInTest Description: Verify link password.epam.com</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1550869419291,
+      "stop" : 1550869424545,
+      "duration" : 5254
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "LogInTest Description: Verify link password.epam.com",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "PageElementBO Step: click on link password.epam.com...",
+      "time" : {
+        "start" : 1550869424875,
+        "stop" : 1550869430395,
+        "duration" : 5520
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1550869424877,
+          "stop" : 1550869430395,
+          "duration" : 5518
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "PageElementBO Step: go back...",
+      "time" : {
+        "start" : 1550869430612,
+        "stop" : 1550869432053,
+        "duration" : 1441
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "TestListener Step: method: {onTestSuccess}...",
+      "time" : {
+        "start" : 1550869432064,
+        "stop" : 1550869432065,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "iTestResult",
+        "value" : "[TestResult name=verifyLinkPasswordEpamCom status=SUCCESS method=LogInTest.verifyLinkPasswordEpamCom()[pri:0, instance:com.epam.lab.LogInTest@16390f4] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quit",
+    "time" : {
+      "start" : 1550869480301,
+      "stop" : 1550869481581,
+      "duration" : 1280
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.lab.LogInTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.lab.LogInTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyLinkPasswordEpamCom"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.lab.LogInTest"
+  }, {
+    "name" : "host",
+    "value" : "User-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "4188@User-ПК.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27276db8e4120b04.json",
+  "parameterValues" : [ ]
+}

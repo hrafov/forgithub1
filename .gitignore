@@ -1,0 +1,10 @@
+.idea/*
+*.iml
+target/*
+allure-results/*
+.settings/*
+.classpath
+.project
+test-output/*
+logs.log
+src/main/resources/user.csv

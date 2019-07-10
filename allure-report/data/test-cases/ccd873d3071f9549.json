@@ -1,0 +1,641 @@
+{
+  "uid" : "ccd873d3071f9549",
+  "name" : "Verify if data on profile page comply with person data",
+  "fullName" : "com.epam.lab.ProfilePageTest.verifyPersonalData",
+  "historyId" : "df4539de69c6068ff6d5ed6d082e1b77",
+  "time" : {
+    "start" : 1551101032563,
+    "stop" : 1551101036023,
+    "duration" : 3460
+  },
+  "description" : "ProfileTest Description: Verify if data on profile page comply with person data",
+  "descriptionHtml" : "<p>ProfileTest Description: Verify if data on profile page comply with person data</p>\n",
+  "status" : "failed",
+  "statusMessage" : "The following asserts failed:\n\tPhone number is't correct expected [679829142] but found [null],\n\tThe job location is't correct expected [Ukraine, Lviv, Off-site] but found [Ukraine, Lviv, Shevchenka St. 111a, 7th floor-Room 713],\n\tproductionCategory is't correct expected [Extended leave] but found [Full-time employee],\n\tThe primary skill is't correct expected [Performance testing] but found [Automated Testing]",
+  "statusTrace" : "java.lang.AssertionError: The following asserts failed:\n\tPhone number is't correct expected [679829142] but found [null],\n\tThe job location is't correct expected [Ukraine, Lviv, Off-site] but found [Ukraine, Lviv, Shevchenka St. 111a, 7th floor-Room 713],\n\tproductionCategory is't correct expected [Extended leave] but found [Full-time employee],\n\tThe primary skill is't correct expected [Performance testing] but found [Automated Testing]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)\r\n\tat com.epam.lab.business.ProfilePageBo.verifyPrimarySkill_aroundBody68(ProfilePageBo.java:264)\r\n\tat com.epam.lab.business.ProfilePageBo$AjcClosure69.run(ProfilePageBo.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)\r\n\tat com.epam.lab.business.ProfilePageBo.verifyPrimarySkill(ProfilePageBo.java:260)\r\n\tat com.epam.lab.ProfilePageTest.verifyPersonalData(ProfilePageTest.java:99)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\r\n\tat org.testng.TestRunner.run(TestRunner.java:602)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\r\n\tat org.testng.TestNG.run(TestNG.java:1115)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1551100938134,
+      "stop" : 1551100975076,
+      "duration" : 36942
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "LoginPageBO with login: {0}, password: {1} for method: {logIn} step...",
+      "time" : {
+        "start" : 1551100948582,
+        "stop" : 1551100968093,
+        "duration" : 19511
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElementBO Step: Enter login: {0} in login input field in method: {enterLogin}...",
+        "time" : {
+          "start" : 1551100948584,
+          "stop" : 1551100951203,
+          "duration" : 2619
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Clear input field...",
+          "time" : {
+            "start" : 1551100948585,
+            "stop" : 1551100949495,
+            "duration" : 910
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Send keys: {0}...",
+          "time" : {
+            "start" : 1551100949497,
+            "stop" : 1551100951203,
+            "duration" : 1706
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "keysToSend",
+            "value" : "[Yevhen_Hrafov@epam.com]"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "Yevhen_Hrafov@epam.com"
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Enter password: {0} in password input field in method: {enterPassword}...",
+        "time" : {
+          "start" : 1551100951204,
+          "stop" : 1551100951911,
+          "duration" : 707
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Clear input field...",
+          "time" : {
+            "start" : 1551100951205,
+            "stop" : 1551100951360,
+            "duration" : 155
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Send keys: {0}...",
+          "time" : {
+            "start" : 1551100951361,
+            "stop" : 1551100951911,
+            "duration" : 550
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "keysToSend",
+            "value" : "[ELClub11_15]"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "ELClub11_15"
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: click on checkbox Keep me logged in system...",
+        "time" : {
+          "start" : 1551100951911,
+          "stop" : 1551100952490,
+          "duration" : 579
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Click on page element...",
+          "time" : {
+            "start" : 1551100951911,
+            "stop" : 1551100952490,
+            "duration" : 579
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Submit login form in login page in method: {clickSubmit}...",
+        "time" : {
+          "start" : 1551100952491,
+          "stop" : 1551100968093,
+          "duration" : 15602
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Click on page element...",
+          "time" : {
+            "start" : 1551100952491,
+            "stop" : 1551100968093,
+            "duration" : 15602
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "Yevhen_Hrafov@epam.com"
+      }, {
+        "name" : "password",
+        "value" : "ELClub11_15"
+      } ],
+      "stepsCount" : 10,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "ProfileTest Description: Verify if data on profile page comply with person data",
+    "status" : "failed",
+    "statusMessage" : "The following asserts failed:\n\tPhone number is't correct expected [679829142] but found [null],\n\tThe job location is't correct expected [Ukraine, Lviv, Off-site] but found [Ukraine, Lviv, Shevchenka St. 111a, 7th floor-Room 713],\n\tproductionCategory is't correct expected [Extended leave] but found [Full-time employee],\n\tThe primary skill is't correct expected [Performance testing] but found [Automated Testing]",
+    "statusTrace" : "java.lang.AssertionError: The following asserts failed:\n\tPhone number is't correct expected [679829142] but found [null],\n\tThe job location is't correct expected [Ukraine, Lviv, Off-site] but found [Ukraine, Lviv, Shevchenka St. 111a, 7th floor-Room 713],\n\tproductionCategory is't correct expected [Extended leave] but found [Full-time employee],\n\tThe primary skill is't correct expected [Performance testing] but found [Automated Testing]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)\r\n\tat com.epam.lab.business.ProfilePageBo.verifyPrimarySkill_aroundBody68(ProfilePageBo.java:264)\r\n\tat com.epam.lab.business.ProfilePageBo$AjcClosure69.run(ProfilePageBo.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)\r\n\tat com.epam.lab.business.ProfilePageBo.verifyPrimarySkill(ProfilePageBo.java:260)\r\n\tat com.epam.lab.ProfilePageTest.verifyPersonalData(ProfilePageTest.java:99)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\r\n\tat org.testng.TestRunner.run(TestRunner.java:602)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\r\n\tat org.testng.TestNG.run(TestNG.java:1115)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+    "steps" : [ {
+      "name" : "PageElementBO Step: Check the user name and surname",
+      "time" : {
+        "start" : 1551101032564,
+        "stop" : 1551101032993,
+        "duration" : 429
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1551101032564,
+          "stop" : 1551101032912,
+          "duration" : 348
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1551101032913,
+          "stop" : 1551101032992,
+          "duration" : 79
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "firstAndLastName",
+        "value" : "Yevhen Hrafov"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "PageElementBO Step: Check the user job title",
+      "time" : {
+        "start" : 1551101032994,
+        "stop" : 1551101033243,
+        "duration" : 249
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1551101032994,
+          "stop" : 1551101033176,
+          "duration" : 182
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1551101033176,
+          "stop" : 1551101033242,
+          "duration" : 66
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jobTitle",
+        "value" : "Junior Software Test Automation Engineer"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "PageElementBO Step: Check the user job location",
+      "time" : {
+        "start" : 1551101033244,
+        "stop" : 1551101033556,
+        "duration" : 312
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1551101033245,
+          "stop" : 1551101033472,
+          "duration" : 227
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1551101033473,
+          "stop" : 1551101033555,
+          "duration" : 82
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jobLocation",
+        "value" : "Ukraine, Lviv, Shevchenka St. 111a, 7th floor-Room 713"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "PageElementBO Step: Check the user production category",
+      "time" : {
+        "start" : 1551101033558,
+        "stop" : 1551101033819,
+        "duration" : 261
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1551101033558,
+          "stop" : 1551101033747,
+          "duration" : 189
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1551101033748,
+          "stop" : 1551101033818,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productionCategory",
+        "value" : "Full-time employee"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "PageElementBO Step: Check the user job function",
+      "time" : {
+        "start" : 1551101033819,
+        "stop" : 1551101035027,
+        "duration" : 1208
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1551101033820,
+          "stop" : 1551101034405,
+          "duration" : 585
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1551101034931,
+          "stop" : 1551101035026,
+          "duration" : 95
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jobFunction",
+        "value" : "Test Automation\\Track A Level 1 "
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "PageElementBO Step: Check the user primary skill",
+      "time" : {
+        "start" : 1551101035027,
+        "stop" : 1551101035328,
+        "duration" : 301
+      },
+      "status" : "failed",
+      "statusMessage" : "The following asserts failed:\n\tPhone number is't correct expected [679829142] but found [null],\n\tThe job location is't correct expected [Ukraine, Lviv, Off-site] but found [Ukraine, Lviv, Shevchenka St. 111a, 7th floor-Room 713],\n\tproductionCategory is't correct expected [Extended leave] but found [Full-time employee],\n\tThe primary skill is't correct expected [Performance testing] but found [Automated Testing]",
+      "statusTrace" : "java.lang.AssertionError: The following asserts failed:\n\tPhone number is't correct expected [679829142] but found [null],\n\tThe job location is't correct expected [Ukraine, Lviv, Off-site] but found [Ukraine, Lviv, Shevchenka St. 111a, 7th floor-Room 713],\n\tproductionCategory is't correct expected [Extended leave] but found [Full-time employee],\n\tThe primary skill is't correct expected [Performance testing] but found [Automated Testing]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)\r\n\tat com.epam.lab.business.ProfilePageBo.verifyPrimarySkill_aroundBody68(ProfilePageBo.java:264)\r\n\tat com.epam.lab.business.ProfilePageBo$AjcClosure69.run(ProfilePageBo.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)\r\n\tat com.epam.lab.business.ProfilePageBo.verifyPrimarySkill(ProfilePageBo.java:260)\r\n\tat com.epam.lab.ProfilePageTest.verifyPersonalData(ProfilePageTest.java:99)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\r\n\tat org.testng.TestRunner.run(TestRunner.java:602)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:380)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1226)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1144)\r\n\tat org.testng.TestNG.run(TestNG.java:1115)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+      "steps" : [ {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1551101035028,
+          "stop" : 1551101035208,
+          "duration" : 180
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1551101035208,
+          "stop" : 1551101035327,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "primarySkill",
+        "value" : "Automated Testing"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "TestListener Step: method: {onTestFailure}...",
+      "time" : {
+        "start" : 1551101035329,
+        "stop" : 1551101036015,
+        "duration" : 686
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e8421c7c3275f55c",
+        "name" : "{0}",
+        "source" : "e8421c7c3275f55c.txt",
+        "type" : "text/plane",
+        "size" : 18
+      }, {
+        "uid" : "4102b51942fdbe97",
+        "name" : "Page screenshot",
+        "source" : "4102b51942fdbe97.png",
+        "type" : "image/png",
+        "size" : 102483
+      } ],
+      "parameters" : [ {
+        "name" : "iTestResult",
+        "value" : "[TestResult name=verifyPersonalData status=FAILURE method=ProfilePageTest.verifyPersonalData()[pri:0, instance:com.epam.lab.ProfilePageTest@9fbb61] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quit",
+    "time" : {
+      "start" : 1551101077705,
+      "stop" : 1551101079276,
+      "duration" : 1571
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.lab.ProfilePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.lab.ProfilePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPersonalData"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "ProfileTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.lab.ProfilePageTest"
+  }, {
+    "name" : "host",
+    "value" : "User-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "5196@User-ПК.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c76fd85fc7f35f17",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"userNameInput\"}\n  (Session info: chrome=72.0.3626.109)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}\nSession ID: 8b5cfb8dd2d2e9957c511eb931a49d12\n*** Element info: {Using=id, value=userNameInput}",
+      "time" : {
+        "start" : 1550869203522,
+        "stop" : 1550869203523,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "964c599ef485d980",
+      "status" : "skipped",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1550833024867,
+        "stop" : 1550833024867,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fdb1a59f3001618c",
+      "status" : "skipped",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1550831374702,
+        "stop" : 1550831374703,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ccd873d3071f9549.json",
+  "parameterValues" : [ ]
+}

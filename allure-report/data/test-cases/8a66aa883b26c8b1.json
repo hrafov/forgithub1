@@ -1,0 +1,152 @@
+{
+  "uid" : "8a66aa883b26c8b1",
+  "name" : "Verify link for support email",
+  "fullName" : "com.epam.lab.LogInTest.verifyLinkForSupportEmail",
+  "historyId" : "58a3f14801cd235b9597a9481c164f6c",
+  "time" : {
+    "start" : 1550832703348,
+    "stop" : 1550832704179,
+    "duration" : 831
+  },
+  "description" : "LogInTest Description: Verify link for support email",
+  "descriptionHtml" : "<p>LogInTest Description: Verify link for support email</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1550832621652,
+      "stop" : 1550832639888,
+      "duration" : 18236
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "LogInTest Description: Verify link for support email",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "PageElementBO Step: get href attribute for link...",
+      "time" : {
+        "start" : 1550832703349,
+        "stop" : 1550832704176,
+        "duration" : 827
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Get attribute by name: {0}...",
+        "time" : {
+          "start" : 1550832703353,
+          "stop" : 1550832704176,
+          "duration" : 823
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "href"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "TestListener Step: method: {onTestSuccess}...",
+      "time" : {
+        "start" : 1550832704176,
+        "stop" : 1550832704177,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "iTestResult",
+        "value" : "[TestResult name=verifyLinkForSupportEmail status=SUCCESS method=LogInTest.verifyLinkForSupportEmail()[pri:2, instance:com.epam.lab.LogInTest@1157787] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quit",
+    "time" : {
+      "start" : 1550832830639,
+      "stop" : 1550832839442,
+      "duration" : 8803
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.lab.LogInTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.lab.LogInTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyLinkForSupportEmail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.lab.LogInTest"
+  }, {
+    "name" : "host",
+    "value" : "User-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "5228@User-ПК.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a66aa883b26c8b1.json",
+  "parameterValues" : [ ]
+}

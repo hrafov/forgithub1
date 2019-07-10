@@ -1,0 +1,451 @@
+{
+  "327e71524c0fbcc45c6843703512f13" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e665f04097de02a",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <img class=\"green-flag_green-flag_1kiAo\" draggable=\"false\" src=\"/static/assets/2e0c4790f8f9cf28e3c346b9cef0fcb6.svg\" title=\"Go\"> is not clickable at point (219, 157). Other element would receive the click: <div class=\"loader_background_2DPrW\">...</div>\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: 3d74282455f858b21f038b26a4da475c",
+      "time" : {
+        "start" : 1562522508810,
+        "stop" : 1562522578208,
+        "duration" : 69398
+      }
+    } ]
+  },
+  "a37c17112169b745c1d9bf9e2696bbd1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e61b4b743579e471",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562522434898,
+        "stop" : 1562522447449,
+        "duration" : 12551
+      }
+    } ]
+  },
+  "a46fbe0854f76744cdd2311acc1927b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35cb337b8a7462c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562522408538,
+        "stop" : 1562522418905,
+        "duration" : 10367
+      }
+    } ]
+  },
+  "f4b8d7d6a8ec1640970ff9317e48fb40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e273f92a8123f8",
+      "status" : "skipped",
+      "statusDetails" : "unknown error: failed to change window state to maximized, current state is normal\n  (Session info: chrome=72.0.3626.109)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}\nSession ID: ad6ca0f165d5cf936e83dad7dc5ca6e1",
+      "time" : {
+        "start" : 1551100937625,
+        "stop" : 1551100937627,
+        "duration" : 2
+      }
+    } ]
+  },
+  "b9167400ae6fd0845ccfaaa0f1ed87a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10d2681816eeb8f4",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"uservoice-custom-widget\"]\"}\n  (Session info: chrome=72.0.3626.109)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}\nSession ID: ad6ca0f165d5cf936e83dad7dc5ca6e1\n*** Element info: {Using=xpath, value=//*[@id=\"uservoice-custom-widget\"]}",
+      "time" : {
+        "start" : 1551100999534,
+        "stop" : 1551101026532,
+        "duration" : 26998
+      }
+    } ]
+  },
+  "adf527a00e4ec238fb0ef6f811726797" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "68d71abbe5a906b9",
+      "status" : "skipped",
+      "statusDetails" : "unknown error: failed to change window state to maximized, current state is normal\n  (Session info: chrome=72.0.3626.109)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}\nSession ID: ad6ca0f165d5cf936e83dad7dc5ca6e1",
+      "time" : {
+        "start" : 1551100937490,
+        "stop" : 1551100937493,
+        "duration" : 3
+      }
+    } ]
+  },
+  "a012a40bcdaff4d49f87fd2facaaf3b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "865bc1759161b514",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551101037431,
+        "stop" : 1551101075091,
+        "duration" : 37660
+      }
+    } ]
+  },
+  "1f4d67e18bc029c15bee91119b2bf794" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b7f36f40a1436ce",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tPhone number is't correct expected [679829142] but found [null],\n\tThe job location is't correct expected [Ukraine, Lviv, Off-site] but found [Ukraine, Lviv, Shevchenka St. 111a, 7th floor-Room 713],\n\tproductionCategory is't correct expected [Extended leave] but found [Full-time employee],\n\tThe primary skill is't correct expected [Performance testing] but found [Automated Testing],\n\tClassname is same expected [e3suiProfileContent__switcherNavLink] but found [e3suiProfileContent__switcherNavLink active]",
+      "time" : {
+        "start" : 1551101075245,
+        "stop" : 1551101077702,
+        "duration" : 2457
+      }
+    } ]
+  },
+  "53552ce3b156e526dda97669e2a62c9b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51048f1f66743abd",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <li role=\"presentation\" class=\"e3suiProfileContent__switcherNavLink\">...</li> is not clickable at point (173, 258). Other element would receive the click: <span>...</span>\n  (Session info: chrome=72.0.3626.109)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}\nSession ID: ad6ca0f165d5cf936e83dad7dc5ca6e1",
+      "time" : {
+        "start" : 1551101036196,
+        "stop" : 1551101037411,
+        "duration" : 1215
+      }
+    } ]
+  },
+  "58a3f14801cd235b9597a9481c164f6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9484c10481763bb4",
+      "status" : "skipped",
+      "statusDetails" : "unknown error: failed to change window state to maximized, current state is normal\n  (Session info: chrome=72.0.3626.109)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}\nSession ID: ad6ca0f165d5cf936e83dad7dc5ca6e1",
+      "time" : {
+        "start" : 1551100937584,
+        "stop" : 1551100937585,
+        "duration" : 1
+      }
+    } ]
+  },
+  "ca7d22339846e49e1886fbc2909006b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2ecef2e25938e7f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of com.epam.lab.core.pageElement.PageElement@587c44 (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1551101105231,
+        "stop" : 1551101128718,
+        "duration" : 23487
+      }
+    } ]
+  },
+  "7906709f5fab6b1ddf86733d98286981" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab2c5303c1723230",
+      "status" : "skipped",
+      "statusDetails" : "unknown error: failed to change window state to maximized, current state is normal\n  (Session info: chrome=72.0.3626.109)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}\nSession ID: ad6ca0f165d5cf936e83dad7dc5ca6e1",
+      "time" : {
+        "start" : 1551100936202,
+        "stop" : 1551100936214,
+        "duration" : 12
+      }
+    } ]
+  },
+  "639fc3e8789df56c5138e22572931feb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "42c47809a93f34fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562522395024,
+        "stop" : 1562522406350,
+        "duration" : 11326
+      }
+    } ]
+  },
+  "a73a4fc3b12b5116c7c4aa86ee7955a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1316ea2b6a0b08fd",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of com.epam.lab.core.pageElement.PageElement@1dad3bb (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1551101202229,
+        "stop" : 1551101213339,
+        "duration" : 11110
+      }
+    } ]
+  },
+  "68e1b2e41392d03aa131b6980d3dc006" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d98a813f5f05973",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562522602357,
+        "stop" : 1562522649370,
+        "duration" : 47013
+      }
+    } ]
+  },
+  "946a32dab2581a50817422608cd34996" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1178461e5145b1d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1551101029080,
+        "stop" : 1551101032425,
+        "duration" : 3345
+      }
+    } ]
+  },
+  "f0ad668168f63e41e823d09315c347af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a18647f93e330902",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of com.epam.lab.core.pageElement.PageElement@45308f (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1551101148909,
+        "stop" : 1551101170643,
+        "duration" : 21734
+      }
+    } ]
+  },
+  "eace50fbef835936873a13439841fa53" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75fe9e285792f93f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562522418974,
+        "stop" : 1562522434774,
+        "duration" : 15800
+      }
+    } ]
+  },
+  "6e1d96e1a0a257f1a5a1ebe95387d6fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c4a7d12fef12c05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551101026657,
+        "stop" : 1551101029042,
+        "duration" : 2385
+      }
+    } ]
+  },
+  "337af8402e0de6ee103c7d6ff264e498" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d4f0aa3daa29ba11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562522447567,
+        "stop" : 1562522464012,
+        "duration" : 16445
+      }
+    } ]
+  },
+  "df4539de69c6068ff6d5ed6d082e1b77" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ccd873d3071f9549",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tPhone number is't correct expected [679829142] but found [null],\n\tThe job location is't correct expected [Ukraine, Lviv, Off-site] but found [Ukraine, Lviv, Shevchenka St. 111a, 7th floor-Room 713],\n\tproductionCategory is't correct expected [Extended leave] but found [Full-time employee],\n\tThe primary skill is't correct expected [Performance testing] but found [Automated Testing]",
+      "time" : {
+        "start" : 1551101032563,
+        "stop" : 1551101036023,
+        "duration" : 3460
+      }
+    } ]
+  },
+  "a8e5a9c5d834e496c7162b76e84d08b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4db1027ae7ebf23c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551100975103,
+        "stop" : 1551100999410,
+        "duration" : 24307
+      }
+    } ]
+  },
+  "e17b5e28ce24ff6b8e1a59ad91243445" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d96e0492a9b27aec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562522671536,
+        "stop" : 1562522797508,
+        "duration" : 125972
+      }
+    } ]
+  }
+}

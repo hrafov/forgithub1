@@ -1,0 +1,231 @@
+[ {
+  "uid" : "68d71abbe5a906b9",
+  "name" : "Verify link Privacy Policy",
+  "time" : {
+    "start" : 1551100937490,
+    "stop" : 1551100937493,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a18647f93e330902",
+  "name" : "Verify the functionality of Personal card with valid data....",
+  "time" : {
+    "start" : 1551101148909,
+    "stop" : 1551101170643,
+    "duration" : 21734
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "35cb337b8a7462c3",
+  "name" : "LogInTest Scenario with invalid username and invalid password",
+  "time" : {
+    "start" : 1562522408538,
+    "stop" : 1562522418905,
+    "duration" : 10367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d96e0492a9b27aec",
+  "name" : "Robot4DragAndDropElements test",
+  "time" : {
+    "start" : 1562522671536,
+    "stop" : 1562522797508,
+    "duration" : 125972
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b7f36f40a1436ce",
+  "name" : "Verify if Wall button shows a wall",
+  "time" : {
+    "start" : 1551101075245,
+    "stop" : 1551101077702,
+    "duration" : 2457
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e273f92a8123f8",
+  "name" : "Verify link Self Service",
+  "time" : {
+    "start" : 1551100937625,
+    "stop" : 1551100937627,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1c4a7d12fef12c05",
+  "name" : "Verify if PAST PROJECTS button shows past projects",
+  "time" : {
+    "start" : 1551101026657,
+    "stop" : 1551101029042,
+    "duration" : 2385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42c47809a93f34fc",
+  "name" : "LogInTest Scenario with blank username and blank password",
+  "time" : {
+    "start" : 1562522395024,
+    "stop" : 1562522406350,
+    "duration" : 11326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "865bc1759161b514",
+  "name" : "Verify if button UPSA is active",
+  "time" : {
+    "start" : 1551101037431,
+    "stop" : 1551101075091,
+    "duration" : 37660
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1178461e5145b1d",
+  "name" : "Verify if data on profile page comply with contacts",
+  "time" : {
+    "start" : 1551101029080,
+    "stop" : 1551101032425,
+    "duration" : 3345
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1316ea2b6a0b08fd",
+  "name" : "Verify the functionality of Professional Training card....",
+  "time" : {
+    "start" : 1551101202229,
+    "stop" : 1551101213339,
+    "duration" : 11110
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e61b4b743579e471",
+  "name" : "LogInTest Scenario with valid username and invalid password",
+  "time" : {
+    "start" : 1562522434898,
+    "stop" : 1562522447449,
+    "duration" : 12551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4db1027ae7ebf23c",
+  "name" : "Verify if Cover image is displayed",
+  "time" : {
+    "start" : 1551100975103,
+    "stop" : 1551100999410,
+    "duration" : 24307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51048f1f66743abd",
+  "name" : "Verify if Profile button shows a profile page",
+  "time" : {
+    "start" : 1551101036196,
+    "stop" : 1551101037411,
+    "duration" : 1215
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "75fe9e285792f93f",
+  "name" : "LogInTest Scenario with invalid username and valid password",
+  "time" : {
+    "start" : 1562522418974,
+    "stop" : 1562522434774,
+    "duration" : 15800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9484c10481763bb4",
+  "name" : "Verify link for support email",
+  "time" : {
+    "start" : 1551100937584,
+    "stop" : 1551100937585,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8e665f04097de02a",
+  "name" : "Main WorkFlow test",
+  "time" : {
+    "start" : 1562522508810,
+    "stop" : 1562522578208,
+    "duration" : 69398
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ab2c5303c1723230",
+  "name" : "Verify link password.epam.com",
+  "time" : {
+    "start" : 1551100936202,
+    "stop" : 1551100936214,
+    "duration" : 12
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d4f0aa3daa29ba11",
+  "name" : "LogInTest Scenario with valid username and valid password",
+  "time" : {
+    "start" : 1562522447567,
+    "stop" : 1562522464012,
+    "duration" : 16445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d98a813f5f05973",
+  "name" : "Create New VU Scenario with new username and new password",
+  "time" : {
+    "start" : 1562522602357,
+    "stop" : 1562522649370,
+    "duration" : 47013
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10d2681816eeb8f4",
+  "name" : "Verify if Feedback button shows feedback window",
+  "time" : {
+    "start" : 1551100999534,
+    "stop" : 1551101026532,
+    "duration" : 26998
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e2ecef2e25938e7f",
+  "name" : "Verify the functionality of Personal card with invalid data....",
+  "time" : {
+    "start" : 1551101105231,
+    "stop" : 1551101128718,
+    "duration" : 23487
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ccd873d3071f9549",
+  "name" : "Verify if data on profile page comply with person data",
+  "time" : {
+    "start" : 1551101032563,
+    "stop" : 1551101036023,
+    "duration" : 3460
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

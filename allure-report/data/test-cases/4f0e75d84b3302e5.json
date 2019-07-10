@@ -1,0 +1,90 @@
+{
+  "uid" : "4f0e75d84b3302e5",
+  "name" : "Robot4DragAndDropElements test",
+  "fullName" : "com.epam.lab.UsingRobot4DragAndDropElements.Robot4DragAndDropTest",
+  "historyId" : "e17b5e28ce24ff6b8e1a59ad91243445",
+  "time" : {
+    "start" : 1561896786391,
+    "stop" : 1561896848400,
+    "duration" : 62009
+  },
+  "description" : "Robot4DragAndDropTest Description: To test Java Robot class 4 dragAnddrop",
+  "descriptionHtml" : "<p>Robot4DragAndDropTest Description: To test Java Robot class 4 dragAnddrop</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1561896774833,
+      "stop" : 1561896786085,
+      "duration" : 11252
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quit",
+    "time" : {
+      "start" : 1561896848888,
+      "stop" : 1561896850750,
+      "duration" : 1862
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.lab.UsingRobot4DragAndDropElements"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.lab.UsingRobot4DragAndDropElements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Robot4DragAndDropTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.lab.UsingRobot4DragAndDropElements"
+  }, {
+    "name" : "host",
+    "value" : "User-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "2476@User-ПК.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f0e75d84b3302e5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1236 @@
+{
+  "uid" : "d96e0492a9b27aec",
+  "name" : "Robot4DragAndDropElements test",
+  "fullName" : "com.epam.lab.UsingRobot4DragAndDropElements.Robot4DragAndDropTest",
+  "historyId" : "e17b5e28ce24ff6b8e1a59ad91243445",
+  "time" : {
+    "start" : 1562522671536,
+    "stop" : 1562522797508,
+    "duration" : 125972
+  },
+  "description" : "Robot4DragAndDropTest Description: To test Java Robot class 4 dragAnddrop",
+  "descriptionHtml" : "<p>Robot4DragAndDropTest Description: To test Java Robot class 4 dragAnddrop</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1562522650923,
+      "stop" : 1562522671513,
+      "duration" : 20590
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Robot4DragAndDropTest Description: To test Java Robot class 4 dragAnddrop",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "LoginPageBO with login: {0}, password: {1} for method: {logIn} step...",
+      "time" : {
+        "start" : 1562522671536,
+        "stop" : 1562522680161,
+        "duration" : 8625
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElementBO Step: Submit login form in login page in method: {clickSubmit}...",
+        "time" : {
+          "start" : 1562522671536,
+          "stop" : 1562522673962,
+          "duration" : 2426
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Click on page element...",
+          "time" : {
+            "start" : 1562522671536,
+            "stop" : 1562522673962,
+            "duration" : 2426
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Enter login: {0} in login input field in method: {enterLogin}...",
+        "time" : {
+          "start" : 1562522673962,
+          "stop" : 1562522677208,
+          "duration" : 3246
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Clear input field...",
+          "time" : {
+            "start" : 1562522673962,
+            "stop" : 1562522675088,
+            "duration" : 1126
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Send keys: {0}...",
+          "time" : {
+            "start" : 1562522675088,
+            "stop" : 1562522677208,
+            "duration" : 2120
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "keysToSend",
+            "value" : "[GrafGraf]"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "GrafGraf"
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Enter password: {0} in password input field in method: {enterPassword}...",
+        "time" : {
+          "start" : 1562522677208,
+          "stop" : 1562522679200,
+          "duration" : 1992
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Clear input field...",
+          "time" : {
+            "start" : 1562522677208,
+            "stop" : 1562522678023,
+            "duration" : 815
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "PageElement Step: Send keys: {0}...",
+          "time" : {
+            "start" : 1562522678028,
+            "stop" : 1562522679200,
+            "duration" : 1172
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "keysToSend",
+            "value" : "[ParolParol]"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "ParolParol"
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElementBO Step: Submit login form in login page in method: {clickSubmit}...",
+        "time" : {
+          "start" : 1562522679200,
+          "stop" : 1562522680161,
+          "duration" : 961
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "PageElement Step: Click on page element...",
+          "time" : {
+            "start" : 1562522679200,
+            "stop" : 1562522680161,
+            "duration" : 961
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "GrafGraf"
+      }, {
+        "name" : "password",
+        "value" : "ParolParol"
+      } ],
+      "stepsCount" : 10,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "PageElementBO Step: Get UserName From profile button...",
+      "time" : {
+        "start" : 1562522680162,
+        "stop" : 1562522683855,
+        "duration" : 3693
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Get text from element...",
+        "time" : {
+          "start" : 1562522680162,
+          "stop" : 1562522683855,
+          "duration" : 3693
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "PageElementBO Step: Get Create button...",
+      "time" : {
+        "start" : 1562522683856,
+        "stop" : 1562522726795,
+        "duration" : 42939
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522683856,
+          "stop" : 1562522726795,
+          "duration" : 42939
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "CreateProjectPageBo Step: push Events button...",
+      "time" : {
+        "start" : 1562522735205,
+        "stop" : 1562522739616,
+        "duration" : 4411
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522735206,
+          "stop" : 1562522739616,
+          "duration" : 4410
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "CreateProjectPageBo Step: push Motion button...",
+      "time" : {
+        "start" : 1562522763614,
+        "stop" : 1562522764501,
+        "duration" : 887
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522763614,
+          "stop" : 1562522764500,
+          "duration" : 886
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "CreateProjectPageBo Step: start project with GO button(green flag)...",
+      "time" : {
+        "start" : 1562522789665,
+        "stop" : 1562522790671,
+        "duration" : 1006
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522789665,
+          "stop" : 1562522790671,
+          "duration" : 1006
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "CreateProjectPageBo Step: start project with GO button(green flag)...",
+      "time" : {
+        "start" : 1562522790671,
+        "stop" : 1562522791236,
+        "duration" : 565
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522790671,
+          "stop" : 1562522791236,
+          "duration" : 565
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "CreateProjectPageBo Step: start project with GO button(green flag)...",
+      "time" : {
+        "start" : 1562522791236,
+        "stop" : 1562522791852,
+        "duration" : 616
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522791236,
+          "stop" : 1562522791852,
+          "duration" : 616
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "CreateProjectPageBo Step: start project with GO button(green flag)...",
+      "time" : {
+        "start" : 1562522791853,
+        "stop" : 1562522792413,
+        "duration" : 560
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522791853,
+          "stop" : 1562522792412,
+          "duration" : 559
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "CreateProjectPageBo Step: start project with GO button(green flag)...",
+      "time" : {
+        "start" : 1562522792413,
+        "stop" : 1562522793123,
+        "duration" : 710
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522792413,
+          "stop" : 1562522793123,
+          "duration" : 710
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "CreateProjectPageBo Step: start project with GO button(green flag)...",
+      "time" : {
+        "start" : 1562522793124,
+        "stop" : 1562522793541,
+        "duration" : 417
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522793124,
+          "stop" : 1562522793541,
+          "duration" : 417
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "CreateProjectPageBo Step: start project with GO button(green flag)...",
+      "time" : {
+        "start" : 1562522793541,
+        "stop" : 1562522793967,
+        "duration" : 426
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522793541,
+          "stop" : 1562522793966,
+          "duration" : 425
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "CreateProjectPageBo Step: start project with GO button(green flag)...",
+      "time" : {
+        "start" : 1562522793967,
+        "stop" : 1562522794794,
+        "duration" : 827
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522793967,
+          "stop" : 1562522794794,
+          "duration" : 827
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "CreateProjectPageBo Step: start project with GO button(green flag)...",
+      "time" : {
+        "start" : 1562522794794,
+        "stop" : 1562522795415,
+        "duration" : 621
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522794794,
+          "stop" : 1562522795415,
+          "duration" : 621
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "CreateProjectPageBo Step: start project with GO button(green flag)...",
+      "time" : {
+        "start" : 1562522795416,
+        "stop" : 1562522795938,
+        "duration" : 522
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522795416,
+          "stop" : 1562522795938,
+          "duration" : 522
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "CreateProjectPageBo Step: logout...",
+      "time" : {
+        "start" : 1562522795939,
+        "stop" : 1562522797496,
+        "duration" : 1557
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522795939,
+          "stop" : 1562522796588,
+          "duration" : 649
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "PageElement Step: Click on page element...",
+        "time" : {
+          "start" : 1562522796588,
+          "stop" : 1562522797496,
+          "duration" : 908
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "TestListener Step: method: {onTestSuccess}...",
+      "time" : {
+        "start" : 1562522797497,
+        "stop" : 1562522797508,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "iTestResult",
+        "value" : "[TestResult name=Robot4DragAndDropTest status=SUCCESS method=UsingRobot4DragAndDropElements.Robot4DragAndDropTest()[pri:0, instance:com.epam.lab.UsingRobot4DragAndDropElements@193dd4e] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 43,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quit",
+    "time" : {
+      "start" : 1562522797550,
+      "stop" : 1562522798808,
+      "duration" : 1258
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.lab.UsingRobot4DragAndDropElements"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.lab.UsingRobot4DragAndDropElements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Robot4DragAndDropTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "UsingRobot4DragAndDropElements"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.lab.UsingRobot4DragAndDropElements"
+  }, {
+    "name" : "host",
+    "value" : "User-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "948@User-ПК.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4db3a3603234614",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562520487217,
+        "stop" : 1562520591112,
+        "duration" : 103895
+      }
+    }, {
+      "uid" : "bdf00eec3df4c90e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562141340306,
+        "stop" : 1562141435936,
+        "duration" : 95630
+      }
+    }, {
+      "uid" : "3c08c8b0757301ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562140982588,
+        "stop" : 1562141069285,
+        "duration" : 86697
+      }
+    }, {
+      "uid" : "cdba394cbea209ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562140809821,
+        "stop" : 1562140882523,
+        "duration" : 72702
+      }
+    }, {
+      "uid" : "cd45fc239aab2280",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Sign out')]\"}\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: faf4677c8affd9b9445220067daef9b3\n*** Element info: {Using=xpath, value=//span[contains(text(),'Sign out')]}",
+      "time" : {
+        "start" : 1562140610753,
+        "stop" : 1562140695046,
+        "duration" : 84293
+      }
+    }, {
+      "uid" : "6401f5fff49b80c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562097841726,
+        "stop" : 1562097955722,
+        "duration" : 113996
+      }
+    }, {
+      "uid" : "936962adc088150e",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: 3e80403a6de2c53e52701e0b4772c6c5",
+      "time" : {
+        "start" : 1562097435109,
+        "stop" : 1562097566583,
+        "duration" : 131474
+      }
+    }, {
+      "uid" : "9a8fdaed6c4d10e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562094239588,
+        "stop" : 1562094341200,
+        "duration" : 101612
+      }
+    }, {
+      "uid" : "c61ced9b96ea6bca",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a.ignore-react-onclickoutside\"}\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: c181dba1c16e79b58ee3864df16e2089\n*** Element info: {Using=css selector, value=a.ignore-react-onclickoutside}",
+      "time" : {
+        "start" : 1562093485874,
+        "stop" : 1562093497484,
+        "duration" : 11610
+      }
+    }, {
+      "uid" : "a4032afc5fb8268a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Sign out')]\"}\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: b17933d528543605e4f5db6d4bf9b7e1\n*** Element info: {Using=xpath, value=//span[contains(text(),'Sign out')]}",
+      "time" : {
+        "start" : 1562091966665,
+        "stop" : 1562092039471,
+        "duration" : 72806
+      }
+    }, {
+      "uid" : "52af83ef16c0f25d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562091665764,
+        "stop" : 1562091741166,
+        "duration" : 75402
+      }
+    }, {
+      "uid" : "3ed9d5712cd95248",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562091496669,
+        "stop" : 1562091569537,
+        "duration" : 72868
+      }
+    }, {
+      "uid" : "2292b21643c9453e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562091211566,
+        "stop" : 1562091363617,
+        "duration" : 152051
+      }
+    }, {
+      "uid" : "8af13cd37a4484cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562090855002,
+        "stop" : 1562091046105,
+        "duration" : 191103
+      }
+    }, {
+      "uid" : "ae731bae2f37d003",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562090155129,
+        "stop" : 1562090281945,
+        "duration" : 126816
+      }
+    }, {
+      "uid" : "c3d751cc4ff4c8b9",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'Motion')]\"}\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: 14b784d185f55039d5b70aaea8a32940\n*** Element info: {Using=xpath, value=//div[contains(text(),'Motion')]}",
+      "time" : {
+        "start" : 1562079920826,
+        "stop" : 1562079969387,
+        "duration" : 48561
+      }
+    }, {
+      "uid" : "280c596429ee9f05",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'Motion')]\"}\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: cb9d66501d29fc7b2094cdb38d0c0d37\n*** Element info: {Using=xpath, value=//div[contains(text(),'Motion')]}",
+      "time" : {
+        "start" : 1562079772146,
+        "stop" : 1562079837635,
+        "duration" : 65489
+      }
+    }, {
+      "uid" : "9cc7fa4bdd0d896b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562079549608,
+        "stop" : 1562079647994,
+        "duration" : 98386
+      }
+    }, {
+      "uid" : "70454b74c62a24a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562079101625,
+        "stop" : 1562079159989,
+        "duration" : 58364
+      }
+    }, {
+      "uid" : "99c7e385ed6e7ef8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562075002068,
+        "stop" : 1562075058160,
+        "duration" : 56092
+      }
+    }, {
+      "uid" : "3db8dc70e89f28a6",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: b06b7a5b063f3cc5c62930eb78d96674",
+      "time" : {
+        "start" : 1562074251842,
+        "stop" : 1562074301190,
+        "duration" : 49348
+      }
+    }, {
+      "uid" : "67388739083810ad",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//html/body/div[1]/div/div[3]/div/div[1]/div[1]/div[1]/div[1]/div/div/svg[1]/g/rect[1]\"}\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: 08aa4e21c41ed6c2f8b315716ee984ef\n*** Element info: {Using=xpath, value=//html/body/div[1]/div/div[3]/div/div[1]/div[1]/div[1]/div[1]/div/div/svg[1]/g/rect[1]}",
+      "time" : {
+        "start" : 1562070329226,
+        "stop" : 1562070392682,
+        "duration" : 63456
+      }
+    }, {
+      "uid" : "bd37c2b2ee28bbcc",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div/div[3]/div/div[1]/div[1]/div[1]/div[1]/div/div/svg[1]/g/rect[1]\"}\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: ce7b16eb91a475a084b4c8484d729294\n*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[3]/div/div[1]/div[1]/div[1]/div[1]/div/div/svg[1]/g/rect[1]}",
+      "time" : {
+        "start" : 1562069959256,
+        "stop" : 1562070039624,
+        "duration" : 80368
+      }
+    }, {
+      "uid" : "acc34b33756957e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562062781773,
+        "stop" : 1562062851916,
+        "duration" : 70143
+      }
+    }, {
+      "uid" : "3a9c74a4c7661196",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562062606679,
+        "stop" : 1562062679812,
+        "duration" : 73133
+      }
+    }, {
+      "uid" : "c053e5250c6d0489",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562061701224,
+        "stop" : 1562061773732,
+        "duration" : 72508
+      }
+    }, {
+      "uid" : "2076537bc1f385c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562061502906,
+        "stop" : 1562061592303,
+        "duration" : 89397
+      }
+    }, {
+      "uid" : "a896c3aebcd09c70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562009042822,
+        "stop" : 1562009120967,
+        "duration" : 78145
+      }
+    }, {
+      "uid" : "d98c87363dd379ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562008822474,
+        "stop" : 1562008891925,
+        "duration" : 69451
+      }
+    }, {
+      "uid" : "3adc2609bf46f354",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562008454409,
+        "stop" : 1562008550619,
+        "duration" : 96210
+      }
+    }, {
+      "uid" : "4b23729ce7daac21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562008173297,
+        "stop" : 1562008277895,
+        "duration" : 104598
+      }
+    }, {
+      "uid" : "1e3000d9516c7ecd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562007189528,
+        "stop" : 1562007270423,
+        "duration" : 80895
+      }
+    }, {
+      "uid" : "82464e5e205eaac8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562007069000,
+        "stop" : 1562007128509,
+        "duration" : 59509
+      }
+    }, {
+      "uid" : "a0fe517c7eeca503",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"span.profile-name\"}\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: 6f594e18df742cd4a2535ca16f7f717f\n*** Element info: {Using=css selector, value=span.profile-name}",
+      "time" : {
+        "start" : 1562006921958,
+        "stop" : 1562006941933,
+        "duration" : 19975
+      }
+    }, {
+      "uid" : "6afc0f3fc653e98b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562006766010,
+        "stop" : 1562006850831,
+        "duration" : 84821
+      }
+    }, {
+      "uid" : "e417839012fc444",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561978954050,
+        "stop" : 1561979024525,
+        "duration" : 70475
+      }
+    }, {
+      "uid" : "604d318ae58d06c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561978805525,
+        "stop" : 1561978875799,
+        "duration" : 70274
+      }
+    }, {
+      "uid" : "d6590b0251964268",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561978698701,
+        "stop" : 1561978769934,
+        "duration" : 71233
+      }
+    }, {
+      "uid" : "d94b9fad3e14dbbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561978563316,
+        "stop" : 1561978631928,
+        "duration" : 68612
+      }
+    }, {
+      "uid" : "fe66d666499394f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561978390061,
+        "stop" : 1561978457433,
+        "duration" : 67372
+      }
+    }, {
+      "uid" : "f1870bad95393657",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561978056871,
+        "stop" : 1561978150712,
+        "duration" : 93841
+      }
+    }, {
+      "uid" : "b9c3168b0e831c8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561977903765,
+        "stop" : 1561977986095,
+        "duration" : 82330
+      }
+    }, {
+      "uid" : "81d8e4e7ff3a70f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561977355951,
+        "stop" : 1561977453423,
+        "duration" : 97472
+      }
+    }, {
+      "uid" : "ada00ee60090f04a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561977087019,
+        "stop" : 1561977165748,
+        "duration" : 78729
+      }
+    }, {
+      "uid" : "6e8d55df729fba1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561976785401,
+        "stop" : 1561976852163,
+        "duration" : 66762
+      }
+    }, {
+      "uid" : "a1e73fa8d91ab0d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561976406436,
+        "stop" : 1561976481787,
+        "duration" : 75351
+      }
+    }, {
+      "uid" : "82eba6ce10586fe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561972778601,
+        "stop" : 1561972874293,
+        "duration" : 95692
+      }
+    }, {
+      "uid" : "9ccc6be4a908a263",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561972525851,
+        "stop" : 1561972623937,
+        "duration" : 98086
+      }
+    }, {
+      "uid" : "7b3dbdb62a192e24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561924214527,
+        "stop" : 1561924337980,
+        "duration" : 123453
+      }
+    }, {
+      "uid" : "8f430ff41859c010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561923027646,
+        "stop" : 1561923133916,
+        "duration" : 106270
+      }
+    }, {
+      "uid" : "bf75a89ea16bbece",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561922799515,
+        "stop" : 1561922920963,
+        "duration" : 121448
+      }
+    }, {
+      "uid" : "82f03ca7a1575d15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561922576449,
+        "stop" : 1561922685857,
+        "duration" : 109408
+      }
+    }, {
+      "uid" : "831abf5566b15c9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561922279773,
+        "stop" : 1561922379612,
+        "duration" : 99839
+      }
+    }, {
+      "uid" : "d178c2e62f92e2b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561921381976,
+        "stop" : 1561921487049,
+        "duration" : 105073
+      }
+    }, {
+      "uid" : "3307361418fc2a1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561896921155,
+        "stop" : 1561896975667,
+        "duration" : 54512
+      }
+    }, {
+      "uid" : "4f0e75d84b3302e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561896786391,
+        "stop" : 1561896848400,
+        "duration" : 62009
+      }
+    }, {
+      "uid" : "c098f89145ba8089",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a.ignore-react-onclickoutside.user-info\"}\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'USER-ПК', ip: '93.77.140.148', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: 7762a366fbca6029177bb238791e20ce\n*** Element info: {Using=css selector, value=a.ignore-react-onclickoutside.user-info}",
+      "time" : {
+        "start" : 1561895947492,
+        "stop" : 1561896040715,
+        "duration" : 93223
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d96e0492a9b27aec.json",
+  "parameterValues" : [ ]
+}
