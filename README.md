@@ -1,8 +1,7 @@
 
-# TESTING TELESCOPE
-> This is a internal project for UI, API and integration testing Testscope. All UI tests are running on Chrome browser.
+# TESTING SCRATCH.MIT.EDU
 
----
+-  All UI tests are running on Chrome browser.
 
 ## Start & watch tests
 
@@ -20,13 +19,6 @@ To Run Allure reporting, use following steps:
 - After running test input
 - Allure serve allure-results
 - To terminate press Ctrl+C than Y
-
-## Login
-
-To login into the Telescope, use your own credentials.
-This is a path to the credentials: TestProject-develop\src\main\resources
-
----
 
 ## Languages & tools
 
