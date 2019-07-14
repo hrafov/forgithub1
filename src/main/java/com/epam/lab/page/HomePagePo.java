@@ -21,6 +21,9 @@ public class HomePagePo extends AbstractPage {
     @LogMessage("createButton")
     @FindBy(css = "a[href=\"/projects/editor/\"]")
     private PageElement createButton;
+    @LogMessage("createButtonWithoutLogin")
+    @FindBy(css = "a[href=\"/projects/editor/?tutorial=getStarted\"]")
+    private PageElement createButtonWithoutLogin;
 
     public PageElement getDropDownMenu() {
         return dropDownMenu;
@@ -41,5 +44,8 @@ public class HomePagePo extends AbstractPage {
     public PageElement getCreateButton() {
         return createButton;
     }
-
+    
+    public PageElement getCreateButtonWithoutLogin() {
+        return createButtonWithoutLogin;
+    }
 }

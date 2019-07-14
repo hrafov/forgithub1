@@ -12,6 +12,9 @@ public class CreateProjectPagePo extends AbstractPage {
 	@LogMessage("motion Button")    
 	@FindBy(xpath = "//div[contains(text(),'Motion')]")
     private PageElement motionButton;
+	@LogMessage("sound Button")    
+	@FindBy(xpath = "//div[contains(text(),'Sound')]")
+    private PageElement soundButton;
 	@LogMessage("dropDownMenu")
 	@FindBy(xpath = "//html/body/div/div/div[2]/div[2]/div[2]")
 	private PageElement dropDownMenu;
@@ -28,6 +31,10 @@ public class CreateProjectPagePo extends AbstractPage {
 	
 	public PageElement motionButton() {
         return motionButton;
+    }
+	
+	public PageElement soundButton() {
+        return soundButton;
     }
 	
 	public PageElement getDropDownMenu() {
