@@ -38,4 +38,9 @@ public class HomePageBo {
     public void createButton(){
     	homePagePo.getCreateButton().click();    	
     }
+    
+    @Step("PageElementBO Step: Get Create button but without login process...")
+    public void createButtonWithoutLogin(){
+    	homePagePo.getCreateButtonWithoutLogin().click();    	
+    }
 }
