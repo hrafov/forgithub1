@@ -24,6 +24,11 @@ public class CreateProjectPageBo {
 	public void motionButton() {
 		createProjectPagePo.motionButton().click();
 	}
+	
+	@Step("CreateProjectPageBo Step: push Sound button...")
+	public void soundButton() {
+		createProjectPagePo.soundButton().click();
+	}
 
 	@Step("CreateProjectPageBo Step: logout...")
 	public void logout() {
